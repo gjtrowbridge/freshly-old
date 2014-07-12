@@ -3,7 +3,10 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic'])
+angular.module('freshly', [
+  'ionic',
+  'freshly.factories'
+])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -18,18 +21,18 @@ angular.module('starter', ['ionic'])
   });
 })
 
-  .controller('CaptureSaveController', function ($scope) {
-    $scope.captureSave = function () {
-      // save and create a new pin
-      // go back to map view
-      console.log("Save Button clicked!")
+  .controller('CapturePhotoController', function ($scope) {
+    $scope.getCamera = function () {
+      console.log("Photo Button clicked!");
     };
   })
 
-  .controller('CapturePhotoController', function ($scope) {
-    $scope.capturePhoto = function () {
-      // save and create a new pin
-      // go back to map view
-      console.log("Photo Button clicked!")
+  .controller('CaptureSaveController', function ($scope, Activities) {
+    $scope.save = function () {
+      Activities.saveActivity($scope.activity).then(function(response) {
+        console.log('Activity updated');
+      });
+      // go back to map view (shows pin)
+      console.log("Save Button clicked!");
     };
   });
