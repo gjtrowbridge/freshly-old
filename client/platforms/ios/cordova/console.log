@@ -1,0 +1,32 @@
+2014-07-11 15:44:51.439 HelloCordova[64274:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-11 15:44:51.444 HelloCordova[64274:70b] Unlimited access to network resources
+2014-07-11 15:44:51.457 HelloCordova[64274:70b] [CDVTimer][keyboard] 0.048995ms
+2014-07-11 15:44:51.458 HelloCordova[64274:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-11 15:44:51.458 HelloCordova[64274:70b] [CDVTimer][statusbar] 0.303984ms
+2014-07-11 15:44:51.458 HelloCordova[64274:70b] [CDVTimer][TotalPluginStartup] 0.981987ms
+2014-07-11 15:44:51.486 HelloCordova[64274:70b] Resetting plugins due to page load.
+2014-07-11 15:44:51.568 HelloCordova[64274:70b] Finished load of: file:///Users/jasenlew/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/430E4F48-DBEE-4A6B-8FA0-BA9127BEEB7E/HelloCordova.app/www/index.html
+2014-07-11 15:48:38.539 HelloCordova[64769:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-11 15:48:38.544 HelloCordova[64769:70b] Unlimited access to network resources
+2014-07-11 15:48:38.557 HelloCordova[64769:70b] [CDVTimer][keyboard] 0.048995ms
+2014-07-11 15:48:38.557 HelloCordova[64769:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-11 15:48:38.557 HelloCordova[64769:70b] [CDVTimer][statusbar] 0.342965ms
+2014-07-11 15:48:38.558 HelloCordova[64769:70b] [CDVTimer][TotalPluginStartup] 1.031995ms
+2014-07-11 15:48:38.585 HelloCordova[64769:70b] Resetting plugins due to page load.
+2014-07-11 15:48:38.667 HelloCordova[64769:70b] Finished load of: file:///Users/jasenlew/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/430E4F48-DBEE-4A6B-8FA0-BA9127BEEB7E/HelloCordova.app/www/index.html
+2014-07-11 16:10:00.974 HelloCordova[66428:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-11 16:10:00.979 HelloCordova[66428:70b] Unlimited access to network resources
+2014-07-11 16:10:00.992 HelloCordova[66428:70b] [CDVTimer][keyboard] 0.050962ms
+2014-07-11 16:10:00.993 HelloCordova[66428:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-11 16:10:00.993 HelloCordova[66428:70b] [CDVTimer][statusbar] 0.404000ms
+2014-07-11 16:10:00.993 HelloCordova[66428:70b] [CDVTimer][TotalPluginStartup] 1.239002ms
+2014-07-11 16:10:01.022 HelloCordova[66428:70b] Resetting plugins due to page load.
+2014-07-11 16:10:01.104 HelloCordova[66428:70b] Finished load of: file:///Users/jasenlew/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/430E4F48-DBEE-4A6B-8FA0-BA9127BEEB7E/HelloCordova.app/www/index.html
+2014-07-11 17:00:24.611 HelloCordova[66982:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-11 17:00:24.620 HelloCordova[66982:70b] Unlimited access to network resources
+2014-07-11 17:00:24.633 HelloCordova[66982:70b] [CDVTimer][keyboard] 0.048995ms
+2014-07-11 17:00:24.633 HelloCordova[66982:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-11 17:00:24.634 HelloCordova[66982:70b] [CDVTimer][statusbar] 0.357032ms
+2014-07-11 17:00:24.634 HelloCordova[66982:70b] [CDVTimer][TotalPluginStartup] 1.115978ms
+2014-07-11 17:00:24.665 HelloCordova[66982:70b] Resetting plugins due to page load.
+2014-07-11 17:00:24.751 HelloCordova[66982:70b] Finished load of: file:///Users/jasenlew/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/430E4F48-DBEE-4A6B-8FA0-BA9127BEEB7E/HelloCordova.app/www/index.html
