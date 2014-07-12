@@ -17,3 +17,11 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+
+  .controller('CaptureController', function ($scope) {
+    $scope.captureSave = function () {
+      // save and create a new pin
+      // go back to map view
+      console.log("Save Button clicked!")
+    };
+  });
