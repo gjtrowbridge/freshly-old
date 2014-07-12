@@ -39,8 +39,8 @@
         <ion-content scroll="false">
 
           <!--Camera-->
-          <div class="row" class="captureCamera">
-            <button class="button icon ion-ios7-camera button-full"></button>
+          <div class="row" class="captureCamera" ng-controller="CapturePhotoController">
+            <button class="button icon ion-ios7-camera button-full" ng-click="capturePhoto()"></button>
           </div>
 
           <!--Text-->
@@ -57,7 +57,7 @@
           </div>
 
           <!--Action Buttons-->
-          <div class="row" class="captureOptions" ng-controller="CaptureController">
+          <div class="row" class="captureOptions" ng-controller="CaptureSaveController">
             <button class="button button-balanced button-full" ng-click="captureSave()">Save</button>
           </div>
 

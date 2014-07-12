@@ -18,10 +18,18 @@ angular.module('starter', ['ionic'])
   });
 })
 
-  .controller('CaptureController', function ($scope) {
+  .controller('CaptureSaveController', function ($scope) {
     $scope.captureSave = function () {
       // save and create a new pin
       // go back to map view
       console.log("Save Button clicked!")
+    };
+  })
+
+  .controller('CapturePhotoController', function ($scope) {
+    $scope.capturePhoto = function () {
+      // save and create a new pin
+      // go back to map view
+      console.log("Photo Button clicked!")
     };
   });
