@@ -36,10 +36,39 @@ angular.module('app', [
     $urlRouterProvider.otherwise('/app');
 })
 
-.controller('mapController', function($scope,$log) {
+.controller('mapController', function($scope, $log, leafletData) {
+    
+  $scope.location = {
+            lat: 37.26,
+            lng: 138.86,
+            zoom: 4
+        };
 
-    var layer = L.mapbox.tileLayer('jakecadams.io9ec4o2');
-      layer.on('error', function(err) {
-      // Handle error
-    });
+  var x = document.getElementById("demo");
+
+  $scope.getLocation = function() {
+
+      var callback = function(position){
+        console.log('herer');
+        $scope.location = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+            zoom: 4
+        }
+        console.log($scope.location);
+        return $scope.location;
+      }
+
+      if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(callback);
+      } else { 
+          x.innerHTML = "Geolocation is not supported by this browser.";
+      }
+
+
+  }
+
+  // getLocation();
+
 });
+

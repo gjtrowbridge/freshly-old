@@ -18,18 +18,10 @@
 
     <!-- lib js --> 
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-    <script src="lib/angular/angular-leaflet-directive.js"></script>
-    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js'></script>
+    <script src="app/directives/angular-leaflet-directive.js"></script>
 
     <!-- your app's js -->
     <script src="app/app.js"></script>
-    <!-- <script src="app/main/main.js"></script> -->
-<!--     <script src="app/main/map/map.js"></script>
-    <script src="app/services/services.js"></script>
-    <script src="app/directives/directives.js"></script> -->
-
-
-
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
@@ -43,11 +35,13 @@
             <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
           </ion-nav-buttons>
           <ion-content class="has-header">
-          <leaflet id='map1' height="500px" width="100%"></leaflet>
+          <leaflet id='map1' center='getLocation()' 
+
+        height="500px" width="100%"></leaflet>
           
+          <div id="map"></div>
           </ion-content>
         </ion-view>
   </body>
-  <script>
-  </script>
+
 </html>
